@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Hyebin Song</title>
+    <link>/~hsong/publication_types/2/</link>
+      <atom:link href="/~hsong/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/~hsong/img/icon-192.png</url>
+      <title>2</title>
+      <link>/~hsong/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>PUlasso: High-Dimensional Variable Selection With Presence-Only Data</title>
+      <link>/~hsong/publication/pulasso/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/~hsong/publication/pulasso/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
