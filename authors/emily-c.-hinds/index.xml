@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emily C. Hinds | Hyebin Song</title>
-    <link>/~hsong/authors/emily-c.-hinds/</link>
-      <atom:link href="/~hsong/authors/emily-c.-hinds/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/emily-c.-hinds/</link>
+      <atom:link href="/authors/emily-c.-hinds/index.xml" rel="self" type="application/rss+xml" />
     <description>Emily C. Hinds</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/~hsong/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Emily C. Hinds</title>
-      <link>/~hsong/authors/emily-c.-hinds/</link>
+      <link>/authors/emily-c.-hinds/</link>
     </image>
     
     <item>
       <title>Inferring protein sequence-function relationships with large-scale positive-unlabeled learning</title>
-      <link>/~hsong/publication/pu_protein/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/pu_protein/</guid>
+      <link>/publication/pu_protein/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/pu_protein/</guid>
       <description></description>
     </item>
     

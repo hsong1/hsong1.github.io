@@ -2,110 +2,112 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Hyebin Song</title>
-    <link>/~hsong/authors/</link>
-      <atom:link href="/~hsong/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/~hsong/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/~hsong/authors/</link>
+      <link>/authors/</link>
     </image>
     
     <item>
       <title>**Hyebin Song**</title>
-      <link>/~hsong/authors/hyebin-song/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/hyebin-song/</guid>
+      <link>/authors/hyebin-song/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/hyebin-song/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bennett J. Bremer</title>
-      <link>/~hsong/authors/bennett-j.-bremer/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/bennett-j.-bremer/</guid>
+      <link>/authors/bennett-j.-bremer/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/bennett-j.-bremer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emily C. Hinds</title>
-      <link>/~hsong/authors/emily-c.-hinds/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/emily-c.-hinds/</guid>
+      <link>/authors/emily-c.-hinds/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/emily-c.-hinds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Garvesh Raskutti</title>
-      <link>/~hsong/authors/garvesh-raskutti/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/garvesh-raskutti/</guid>
+      <link>/authors/garvesh-raskutti/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/garvesh-raskutti/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philip A. Romero</title>
-      <link>/~hsong/authors/philip-a.-romero/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/philip-a.-romero/</guid>
+      <link>/authors/philip-a.-romero/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/philip-a.-romero/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ran Dai</title>
-      <link>/~hsong/authors/ran-dai/</link>
-      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/ran-dai/</guid>
+      <link>/authors/ran-dai/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/ran-dai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rina Foygel Barber</title>
-      <link>/~hsong/authors/rina-foygel-barber/</link>
-      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/rina-foygel-barber/</guid>
+      <link>/authors/rina-foygel-barber/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/rina-foygel-barber/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benjamin Mark</title>
-      <link>/~hsong/authors/benjamin-mark/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/benjamin-mark/</guid>
+      <link>/authors/benjamin-mark/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/benjamin-mark/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David Neiman</title>
-      <link>/~hsong/authors/david-neiman/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/david-neiman/</guid>
+      <link>/authors/david-neiman/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/david-neiman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rebecca Willett</title>
-      <link>/~hsong/authors/rebecca-willett/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/rebecca-willett/</guid>
+      <link>/authors/rebecca-willett/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/rebecca-willett/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yuan Li</title>
-      <link>/~hsong/authors/yuan-li/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/yuan-li/</guid>
+      <link>/authors/yuan-li/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/yuan-li/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/~hsong/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/authors/admin/</guid>
-      <description>&lt;p&gt;I am currently a PhD candidatein the Department of Statistics at the University of Wisconsin-Madison under the supervision of Professor Garvesh Raskutti. My research interests broadly focus on developing statistical methodologies and models to overcome statistical and computational challenges in modern data sets. My recent works are related to semi-parametric inferences in high dimensions and applied problems in complex protein modeling.&lt;/p&gt;
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am an assistant professor in the Department of Statistics at the Pennsylvania State University since 2020. My research interests broadly focus on developing statistical methodologies and models to overcome statistical and computational challenges in modern datasets. My recent works are related to semi-parametric inference in high dimensions and applied problems in systems biology and complex protein modeling. I am also interested in statistical computing and developing useful publicly available software.&lt;/p&gt;
+
+&lt;p&gt;Prior to joining Penn State, I was a PhD student in Statistics from the University of Wisconsin-Madison and received my BA in Applied Statistics from Yonsei University, South Korea. I also worked as a statistician at the Bank of Korea (central bank of Korea) before joining UW-Madison.&lt;/p&gt;
 </description>
     </item>
     

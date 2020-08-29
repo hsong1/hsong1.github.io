@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Neiman | Hyebin Song</title>
-    <link>/~hsong/authors/david-neiman/</link>
-      <atom:link href="/~hsong/authors/david-neiman/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/david-neiman/</link>
+      <atom:link href="/authors/david-neiman/index.xml" rel="self" type="application/rss+xml" />
     <description>David Neiman</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/~hsong/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>David Neiman</title>
-      <link>/~hsong/authors/david-neiman/</link>
+      <link>/authors/david-neiman/</link>
     </image>
     
     <item>
       <title>Graph-based regularization for regression problems with alignment and highly-correlated designs</title>
-      <link>/~hsong/publication/gtv/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/gtv/</guid>
+      <link>/publication/gtv/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/gtv/</guid>
       <description></description>
     </item>
     

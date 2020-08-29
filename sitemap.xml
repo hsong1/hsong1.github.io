@@ -3,262 +3,267 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/~hsong/courses/example/example1/</loc>
+    <loc>/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/courses/example/</loc>
+    <loc>/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/courses/example/example2/</loc>
+    <loc>/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/talk/example/</loc>
+    <loc>/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/</loc>
+    <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/talk/</loc>
+    <loc>/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/hyebin-song/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/authors/hyebin-song/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication_types/3/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/bennett-j.-bremer/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/authors/bennett-j.-bremer/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/emily-c.-hinds/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/authors/emily-c.-hinds/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/garvesh-raskutti/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/authors/garvesh-raskutti/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication/pu_protein/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/publication/pu_protein/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/philip-a.-romero/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/authors/philip-a.-romero/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication_types/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <loc>/publication/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication/convex_non_convex/</loc>
-    <lastmod>2019-10-05T00:00:00+00:00</lastmod>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/ran-dai/</loc>
-    <lastmod>2019-10-05T00:00:00+00:00</lastmod>
+    <loc>/publication/convex_non_convex/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/rina-foygel-barber/</loc>
-    <lastmod>2019-10-05T00:00:00+00:00</lastmod>
+    <loc>/authors/ran-dai/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/benjamin-mark/</loc>
-    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    <loc>/authors/rina-foygel-barber/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/david-neiman/</loc>
-    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication/gtv/</loc>
-    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    <loc>/authors/benjamin-mark/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/rebecca-willett/</loc>
-    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    <loc>/authors/david-neiman/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/yuan-li/</loc>
-    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    <loc>/publication/gtv/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/post/my-article-name/</loc>
+    <loc>/authors/rebecca-willett/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yuan-li/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/bias_iso/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/my-article-name/</loc>
     <lastmod>2019-09-14T21:22:38-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-09-14T21:22:38-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication/bias_iso/</loc>
-    <lastmod>2019-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/~hsong/post/writing-technical-content/</loc>
+    <loc>/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/authors/admin/</loc>
+    <loc>/authors/admin/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/post/jupyter/</loc>
+    <loc>/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication_types/2/</loc>
+    <loc>/publication/pulasso/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/publication/pulasso/</loc>
-    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/~hsong/privacy/</loc>
+    <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/terms/</loc>
+    <loc>/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/tags/deep-learning/</loc>
+    <loc>/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/tags/demo/</loc>
+    <loc>/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/project/external-project/</loc>
+    <loc>/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/project/internal-project/</loc>
+    <loc>/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/tags/academic/</loc>
+    <loc>/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/post/getting-started/</loc>
+    <loc>/post/getting-started/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/categories/demo/</loc>
+    <loc>/categories/demo/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/tags/plot/</loc>
+    <loc>/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/tags/regression/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/~hsong/courses/</loc>
+    <loc>/courses/</loc>
   </url>
   
 </urlset>
