@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Hyebin Song</title>
-    <link>/~hsong/publication/</link>
-      <atom:link href="/~hsong/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/~hsong/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Publications</title>
-      <link>/~hsong/publication/</link>
+      <link>/publication/</link>
     </image>
     
     <item>
       <title>Inferring protein sequence-function relationships with large-scale positive-unlabeled learning</title>
-      <link>/~hsong/publication/pu_protein/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/pu_protein/</guid>
+      <link>/publication/pu_protein/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/pu_protein/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Convex and Non-convex Approaches for Statistical Inference with Noisy Labels</title>
-      <link>/~hsong/publication/convex_non_convex/</link>
-      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/convex_non_convex/</guid>
+      <title>Convex and Non-convex Approaches for Statistical Inference with Class-Conditional Noisy Labels</title>
+      <link>/publication/convex_non_convex/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/convex_non_convex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph-based regularization for regression problems with alignment and highly-correlated designs</title>
-      <link>/~hsong/publication/gtv/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/gtv/</guid>
+      <link>/publication/gtv/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/gtv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The bias of isotonic regression</title>
-      <link>/~hsong/publication/bias_iso/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/bias_iso/</guid>
+      <link>/publication/bias_iso/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/bias_iso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PUlasso: High-Dimensional Variable Selection With Presence-Only Data</title>
-      <link>/~hsong/publication/pulasso/</link>
+      <link>/publication/pulasso/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/pulasso/</guid>
+      <guid>/publication/pulasso/</guid>
       <description></description>
     </item>
     

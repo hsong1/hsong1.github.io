@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bennett J. Bremer | Hyebin Song</title>
-    <link>/~hsong/authors/bennett-j.-bremer/</link>
-      <atom:link href="/~hsong/authors/bennett-j.-bremer/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/bennett-j.-bremer/</link>
+      <atom:link href="/authors/bennett-j.-bremer/index.xml" rel="self" type="application/rss+xml" />
     <description>Bennett J. Bremer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/~hsong/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Bennett J. Bremer</title>
-      <link>/~hsong/authors/bennett-j.-bremer/</link>
+      <link>/authors/bennett-j.-bremer/</link>
     </image>
     
     <item>
       <title>Inferring protein sequence-function relationships with large-scale positive-unlabeled learning</title>
-      <link>/~hsong/publication/pu_protein/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/~hsong/publication/pu_protein/</guid>
+      <link>/publication/pu_protein/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/pu_protein/</guid>
       <description></description>
     </item>
     
