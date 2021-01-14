@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title></title>
+    <base href="/">
+    <meta name="description" content="A simple monospaced resume theme for Hugo.">
+    <meta name="author" content='Hyebin Song'><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="/favicon.ico">
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="/">Hyebin Song</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/publications">Publications</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/teaching">Teaching</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/software">Software</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/cv_hsong.pdf">CV</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <p><em>The Pennsylvania State University, Spring 2021 Stat 415-001, Hyebin Song</em></p>
+<h1 id="introduction">Introduction</h1>
+<p><a href="/psu-sp21-stat415/content/main.html">Go to course main page</a></p>
+<p>[TOC]</p>
+<h2 id="introduction-to-statistical-inference">Introduction to Statistical Inference</h2>
+<h3 id="learning-objectives">Learning objectives</h3>
+<ol>
+<li>Understand the relationship between probability and statistics</li>
+<li>Understand basic terminology in statistics</li>
+</ol>
+<h3 id="statistics">Statistics</h3>
+<p>Statistics  is a data-driven science that concerns the extraction of useful information from the observed data in a principled way, accounting for uncertainty in the observed data.</p>
+<p><strong>Example 1</strong></p>
+<p>Goal: understand an average height of all PSU Students (40K)</p>
+<p>Procedure:</p>
+<ol>
+<li>Ask 100 PSU students their heights and record the responses</li>
+<li>Compute an average of 100 height values</li>
+<li>Claim that this computed average should be close to the average height of all PSU Students</li>
+</ol>
+<p><img src="Figures/population and sample.png" alt="population and sample" style="zoom:67%;" /></p>
+<h3 id="some-definitions">Some definitions</h3>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Population</td>
+<td>the target of our inferential interest</td>
+</tr>
+<tr>
+<td>Sample</td>
+<td>a random fraction of the population (usually from n independent trials from a random experiment)</td>
+</tr>
+<tr>
+<td>Parameter</td>
+<td>a numerical summary of the population. Denoted by Greek letters $(\mu, \sigma^2, \lambda,\dots)$.</td>
+</tr>
+<tr>
+<td>Statistic</td>
+<td>a numerical summary of the sample $(X_1,\dots,X_n)$. A function of the sample $f(X_1,\dots,X_n)$.</td>
+</tr>
+<tr>
+<td>Estimator</td>
+<td>a statistics designed to infer a specific parameter $\theta$. Denoted as $\widehat{\theta}$ or $\widehat{\theta}(X_1,\dots,X_n)$.</td>
+</tr>
+<tr>
+<td>Estimate</td>
+<td>a realization of an estimator. Usually denoted using lower-case letters.</td>
+</tr>
+</tbody>
+</table>
+<p>**Example 1 (Continued) **</p>
+<ol>
+<li>Population: collection of all heights from PSU students</li>
+<li>Sample: $(X_1,\dots,X_{100})$. A random vector of size 100</li>
+<li>Parameter of interest: $\mu = \frac{1}{4K}(5'8''+6'+\dots)$.</li>
+<li>Estimator: $\bar{X} = \frac{1}{100}(X_1+\dots+X_{100})$.</li>
+<li>Estimate:  $\bar{x}= \frac{1}{100}(5'8''+4'11''+\dots)$.</li>
+</ol>
+<p><strong>Example 2</strong></p>
+<p>Goal: understand the probability of face &ldquo;1&rdquo; in a biased die</p>
+<p>Procedure:</p>
+<ol>
+<li>Toss the die 1000 times and record the outcomes.</li>
+<li>Compute the average proportion of &ldquo;1&rdquo; among 1000 trials</li>
+<li>Argue that the computed proportion is close to the true probability of outcome &ldquo;1&rdquo;.</li>
+</ol>
+<p>In this example,</p>
+<ol>
+<li>population: probability of outcome 1,&hellip;,6 of the die.</li>
+<li>parameter of interest: $\theta$ = probability of outcome 1</li>
+<li>sample: a random vector of size 1000 $(X_1, \dots, X_{1000})$ where $X_i$: = ith toss outcome</li>
+<li>estimator of $\theta$: a sample proportion  $\widehat{\theta} = \frac{1}{1000}1[X_i=1]$</li>
+<li>estimate of $\theta$: a realized sample proportion $\frac{1}{1000}(1+0+1+1 + \dots+1 )$</li>
+</ol>
+<h3 id="relationship-between-probability-and-statistics">Relationship between probability and statistics</h3>
+<pre><code class="language-mermaid" data-lang="mermaid">%% Example of sequence diagram
+  sequenceDiagram
+  Probability-&gt;&gt;Statistics: Give model, predict data
+  Statistics-&gt;&gt;Probability: Given data, infer model
+</code></pre><ol>
+<li>
+<p>Given $P(H) = P(T) = 1/2$, what is the probability that the number of heads $\leq 10$ among 20 tosses?</p>
+<blockquote>
+<p>Model: $X_i \sim \textrm{Ber}(0.5$). $(X_1,\dots,X_{20})$ i.i.d.</p>
+<p>Predict data: $P(\sum_{i=1}^{20}X_i\leq 10)$</p>
+</blockquote>
+</li>
+<li>
+<p>Given ($x_1=1, x_2= 0, \dots, x_{20}=1$), what is the true probability of head?</p>
+<blockquote>
+<p>Data: $(x_1,\dots,x_{20})$ where each $x_i \in{0,1}$.</p>
+<p>Infer a model:</p>
+<ul>
+<li>
+<p>Since each $x_i \in{0,1}$, assume $X_i \sim \textrm{Ber}(\theta)$, i.i.d.</p>
+</li>
+<li>
+<p>Using $(x_1,\dots,x_{20})$, we make a guess about $\widehat{\theta}$, and argue  $X_i \sim \textrm{Ber}(\theta)$ with $\theta \approx \widehat{\theta}$.</p>
+</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<h3 id="parametric-and-distribution-free-models">Parametric and distribution-free models</h3>
+<ul>
+<li>
+<p>Parametric models: assume that the distribution of each observation is known up to a parameter.</p>
+<blockquote>
+<p>Example: $X_i \sim \textrm{Ber}(\theta)$, $X_i \sim N(\mu,\sigma^2)$, &hellip;</p>
+</blockquote>
+</li>
+<li>
+<p>Distribution-free models: do not make an assumption on the distribution of a sample.</p>
+</li>
+</ul>
+<p><strong>Remark 1.</strong> The problem of interning a model reduces to interning a parameter value.</p>
+<p><strong>Remark 2.</strong> In this class, we will mostly focus on parametric models.</p>
+<h3 id="overview-of-this-course">Overview of this course</h3>
+<p>Suppose we have an observed sample $(x_1,\dots,x_n)$ where each $x_i$ is assumed to be from a parametric distribution $P_\theta$ with an unknown parameter $\theta$.</p>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Point Estimation</td>
+<td>Provide the best guess of $\theta$ based on the observed sample $(x_1,\dots,x_n)$</td>
+</tr>
+<tr>
+<td>Interval Estimation</td>
+<td>Provide an interval which is likely to include $\theta$ based on the observed sample $(x_1,\dots,x_n)$</td>
+</tr>
+<tr>
+<td>Hypothesis Testing</td>
+<td>Make a decision about a statement about the parameter $\theta$ based on the observed sample $(x_1,\dots,x_n)$</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+        </div>
+    <div id="footer">
+        <hr>
+        <div class="container text-center mb-2">
+            <a href="/"><small>© Copyright 2020 Hyebin Song</small></a>
+        </div>
+    </div>
+
+</body>
+</html>
