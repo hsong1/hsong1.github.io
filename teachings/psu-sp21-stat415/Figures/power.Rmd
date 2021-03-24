@@ -1,0 +1,115 @@
+---
+title: "Power function examples"
+output: html_document
+---
+```{r,warning = FALSE, message = FALSE}
+library(plotly)
+```
+
+## Example 1
+
+### Exact proportion test with significance level $\alpha=5\%$
+
+1. Test $H_0: p = 1/2$ and $H_1: p < 1/2.$
+2. Test statistic $T_{10} = \sum_{i=1}^{10} X_i$
+3. Under the null hypothesis, $T_{10} \sim {\rm Bin}(10,1/2)$
+4. For level $\alpha=5\%$, rejection region = $\{0,1\}$.
+
+```{r}
+pr = seq(0.01,.99,length.out = 1001)
+dt=data.frame(p=pr, power = round(pbinom(q = 1,size = 10,prob = pr),5))
+plot <- 
+  ggplot(dt,aes(p,power))+
+  geom_line()+
+  theme_bw(base_size = 15)+
+  annotate("text", x=.8, y = .9, label= "Rejection Region: {0,1}", size=4.5)+
+  annotate("text", x=.8, y = .8, label= "power(p) = P(T<=1; p = p)", size=4.5)+
+  geom_vline(aes(xintercept=0.5),linetype="dashed")+
+  geom_hline(aes(yintercept=0.05), linetype="dotted")+
+  ggtitle("Exact proportion test, sample size = 10")
+
+ggplotly(plot)
+```
+
+### Exact proportion tests with varying significance levels and sample sizes
+
+1. Hypothesis $H_0: p = 1/2$ and $H_1: p < 1/2.$
+2. Test statistics
+   - when $n=10$, $T_{10} = \sum_{i=1}^{10} X_i$ 
+   - when $n=100$, $T_{100} = \sum_{i=1}^{100} X_i$ 
+
+* When the sample size $n=10$, consider two tests
+   - Reject $H_0$ when $T_{10} \le 1$ (level $\alpha=.05$ test)
+   - Reject $H_0$ when $T_{10} \le 3$ (level $\alpha=.20$ test)
+
+* When the sample size $n=100$, we reject $H_0$ when $T_{100} \le 41$ (level $\alpha=.05$ test)
+
+
+```{r,include=F}
+dt=data.frame(p=pr, 
+              size10_alpha5  = round(pbinom(q = 1,size = 10, prob = pr),5),
+              size10_alpha20 = round(pbinom(q = 3,size = 10, prob = pr),5),
+              size100_alpha5 = round(pbinom(q = 41,size = 100,prob = pr),5))
+dt = reshape2::melt(dt,id.vars="p")
+plot <- 
+  ggplot(dt,aes(p,value))+
+  geom_line(aes(color=variable))+
+  theme_bw(base_size = 15)+
+  ylab("power")+
+  annotate("text", x=.75, y = .9, label= "power(p) = P(T_10 <= 1; p = p)", size=5)+
+  annotate("text", x=.75, y = .8, label= "power(p) = P(T_10 <= 3; p = p)", size=4, color="grey40")+
+  annotate("text", x=.75, y = .7, label= "power(p) = P(T_100<=41; p = p)", size=4, color="red")+
+  geom_vline(aes(xintercept=0.5),linetype="dashed")+
+  ggtitle("Exact proportion test, sample size = 10 and 100")+
+  geom_hline(aes(yintercept=0.05), linetype="dotted")+
+  geom_hline(aes(yintercept=0.20), linetype="dotted", color="grey40")+
+  scale_color_manual(values=c("black","grey40","red"))+
+  theme(legend.position = "bottom")
+
+ggplotly(plot)
+```
+
+
+```{r}
+dt=data.frame(p=pr, 
+              size10_alpha5  = round(pbinom(q = 1,size = 10, prob = pr),5),
+              size10_alpha20 = round(pbinom(q = 3,size = 10, prob = pr),5),
+              size100_alpha5 = round(pbinom(q = 41,size = 100,prob = pr),5))
+dt = reshape2::melt(dt,id.vars="p")
+plot <- 
+  ggplot(dt,aes(p,value))+
+  geom_line(aes(color=variable))+
+  theme_bw(base_size = 15)+
+  ylab("power")+ 
+  geom_vline(aes(xintercept=0.5),linetype="dashed")+
+  ggtitle("Exact proportion test, sample size = 10 and 100")+
+  geom_hline(aes(yintercept=0.05), linetype="dotted")+
+  geom_hline(aes(yintercept=0.20), linetype="dotted", color="grey40")+
+  scale_color_manual(values=c("black","grey40","red"))
+
+ggplotly(plot)
+```
+
+## Example 2
+
+1. Test $H_0: \mu = 60$ and $H_1: \mu> 60.$
+2. Test statistic $T = \frac{\bar{X}-60}{10/\sqrt{25}}$
+3. Under the null (i.e., $\mu = 60$), $T \sim N(0,1)$.  
+4. Choose RR to be $[z_{.05},\infty)$. Then $P_{\mu = 60}(T \ge z_{0.05}) = .05$.
+
+
+```{r}
+mu_a = seq(50,70,length.out = 1001)
+dt=data.frame(mu=mu_a, power = round(1-pnorm(qnorm(.95)-(0.5*mu_a - 30)),5))
+plot <- 
+  ggplot(dt,aes(mu_a,power))+
+  geom_line()+
+  theme_bw(base_size = 15)+
+  annotate("text", x=57, y = .9, label= "Rejection Region: [1.645,infty)", size=4.5)+
+  annotate("text", x=57, y = .8, label= "power(mu) = P(T>=1.645; mu = mu)", size=4.5)+
+  geom_vline(aes(xintercept=60),linetype="dashed")+
+  geom_hline(aes(yintercept=0.05), linetype="dotted")+
+  ggtitle("One sample Z-test")
+
+ggplotly(plot)
+```
